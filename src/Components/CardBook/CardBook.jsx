@@ -11,7 +11,6 @@ export default function CardBook({ id, estado, vehiculo, cliente, fecha, pago, t
     setShowConfirmation(true);
   };
 
-
   const confirmDelete = () => {
     LoadStart()
     axios.delete(`http://localhost:8080/book/delete/${id}`)
