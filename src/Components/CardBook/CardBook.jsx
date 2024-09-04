@@ -59,7 +59,6 @@ export default function CardBook({ id, estado, vehiculo, cliente, fecha, pago, t
           <p className="card-text" style={{background:"transparent", fontWeight:"600", color:"white"}}>Total: ${total}</p>
             {isLoggedIn && <button className="btnDelete" style={{ background:"red", color:"white", padding:"5px", fontSize:"10px", border:"1px", borderRadius:"5px", fontWeight:"900"}} onClick={handleDelete}>BORRAR</button>}
         </div>
-        
       </div>
       </div>
     </div>
