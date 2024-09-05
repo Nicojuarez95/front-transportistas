@@ -12,6 +12,7 @@
 .btnLog:hover{
     background-color: #a1a1ff !important;
 }
+
 @media screen and (max-width: 600px) {
     h2{
         width: 100%;
